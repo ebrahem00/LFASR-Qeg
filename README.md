@@ -1,5 +1,5 @@
 # LFASR-Qeg
-![NETWORK ARCHITECTURE](./NET.png)
+![NETWORK ARCHITECTURE](./Figures/NET.png)
 
 Reconstructing Angular Light Field by Learning Spatial Features from  Quadrilateral Epipolar Geometry
 Preparation:
