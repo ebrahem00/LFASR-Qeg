@@ -80,8 +80,8 @@ def valid(test_loader, test_name, net):
 
         if not (os.path.exists(cfg.save_path + '/' + test_name)):
             os.makedirs(cfg.save_path + '/' + test_name)
-        #scipy.io.savemat(cfg.save_path + '/' + test_name + '/' + test_loader.dataset.file_list[idx_iter][0:-3] + '.mat',
-        #                {'LF': outLF.numpy()})
+        scipy.io.savemat(cfg.save_path + '/' + test_name + '/' + test_loader.dataset.file_list[idx_iter][0:-3] + '.mat',
+                        {'LF': outLF.numpy()})
         pass
 
 
