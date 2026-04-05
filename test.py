@@ -12,7 +12,7 @@ def parse_args():
     parser.add_argument("--angRes_in", type=int, default=2, help="input angular resolution")
     parser.add_argument("--angRes_out", type=int, default=7, help="output angular resolution")
     parser.add_argument("--model_name", type=str, default='Qeg_ASR_Lytro_2x2-7x7')
-    parser.add_argument("--testset_dir", type=str, default='../Data/TestData_Lytro_2x2-7x7/')
+    parser.add_argument("--testset_dir", type=str, default='./Data/TestData_Lytro_2x2-7x7/')
     parser.add_argument('--crop', type=bool, default=True, help="LFs are cropped into patches to save GPU memory")
     parser.add_argument("--patchsize", type=int, default=128, help="LFs are cropped into patches to save GPU memory")
     parser.add_argument('--save_path', type=str, default='./Results/')
